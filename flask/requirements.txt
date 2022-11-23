@@ -1,2 +1,0 @@
-sklearn==0.23.2
-python==3.8

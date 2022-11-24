@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mental health prediction</title>
+</head>
+<body background="https://www.trapollo.com/wp-content/uploads/2020/05/Head-and-Brain-outline-with-heart.jpg" text="black">
+
+<div class="login">
+	<center><h1>Mental health Prediction</h1></center>
+
+
+<form action = "/out" method = "post" >
+<p> Age </p>
+<p> <input type = "text" name= "age"/> </p> <br>
+
+<p>
+<label for = "gender">Gender</label><br>
+<select name= "gender">
+<option value = "Male"> Male </option>
+<option value = "Female"> Female </option>
+<option value = "Non-Binary"> Non-Binary </option>
+</select>
+</p> <br>
+
+<p>
+<label for = "self_employed">Are you self employed?</label><br>
+<select name= "self_employed">
+<option value = "Yes"> Yes </option>
+<option value = "No"> No </option>
+</select>
+</p> <br>
+
+<p>
+<label for = "family_history">Do you have a family history of mental illness?</label><br>
+<select name= "family_history">
+<option value = "Yes"> Yes </option>
+<option value = "No"> No </option>
+</select>
+</p> <br>
+
+<p>
+<label for = "work_interfere">If you have a mental health condition, do you feel that it interferes with your work?</label><br>
+<select name= "work_interfere">
+<option value = "Never"> Never </option>
+<option value = "Rarely"> Rarely </option>
+<option value = "Sometimes"> Sometimes </option>
+<option value = "Often"> Often </option>
+<option value = "N/A"> N/A </option>
+</select>
+</p> <br>
+
+<p>
+<label for = "no_employees">How many employees does your company or organization have?</label><br>
+<select name= "no_employees">
+<option value = "1-5"> 1-25 </option>
+<option value = "6-25"> 6-25 </option>
+<option value = "26-100"> 26-100 </option>
+<option value = "100-500"> 100-500 </option>
+<option value = "500-1000"> 500-1000 </option>
+<option value = "More than 1000"> More than 1000 </option>
+</select>
+</p> <br>
+
+<p>
+<label for = "remote_work">Do you work remotely (outside of an office) at least 50% of the time?</label><br>
+<select name= "remote_work">
+<option value = "Yes"> Yes </option>
+<option value = "No"> No </option>
+</select>
+</p> <br>
+
+<p>
+<label for = "tech_company">Is your employer primarily a tech company/organization?</label><br>
+<select name= "tech_company">
+<option value = "Yes"> Yes </option>
+<option value = "No"> No </option>
+</select>
+</p> <br>
+
+<p>
+<label for = "benefits">Does your employer provide mental health benefits?</label><br>
+<select name= "benefits">
+<option value = "Yes"> Yes </option>
+<option value = "No"> No </option>
+<option value="Don't know"> Don't know </option>
+</select>
+</p> <br>
+
+<p>
+<label for = "care_options">Do you know the options for mental health care your employer provides?</label><br>
+<select name= "care_options">
+<option value = "Yes"> Yes </option>
+<option value = "No"> No </option>
+<option value = "Not sure"> Not sure </option>
+</select>
+</p> <br>
+
+<p>
+<label for = "wellness_program">Has your employer ever discussed mental health as part of an employee wellness program?</label><br>
+<select name= "wellness_program">
+<option value = "Yes"> Yes </option>
+<option value = "No"> No </option>
+<option value="Don't know"> Don't know </option>
+</select>
+</p> <br>
+
+<p>
+<label for = "seek_help">Does your employer provide resources to learn more about mental health issues and how to seek help?</label><br>
+<select name= "seek_help">
+<option value = "Yes"> Yes </option>
+<option value = "No"> No </option>
+<option value="Don't know"> Don't know </option>
+</select>
+</p> <br>
+
+<p>
+<label for = "anonymity">Is your anonymity protected if you choose to take advantage of mental health or substance abuse treatment resources?</label><br>
+<select name= "anonymity">
+<option value = "Yes"> Yes </option>
+<option value = "No"> No </option>
+<option value="Don't know"> Don't know </option>
+</select>
+</p> <br>
+
+<p>
+<label for = "leave">How easy is it for you to take medical leave for a mental health condition?</label><br>
+<select name= "leave">
+<option value = "Somewhat easy"> Somewhat easy </option>
+<option value = "Very easy"> Very easy </option>
+<option value = "Somewhat difficult"> Somewhat difficult </option>
+<option value = "Very difficult"> Very difficult </option>
+<option value="Don't know"> Don't know </option>
+</select>
+</p> <br>
+
+<p>
+<label for = "mental_health_consequence">Do you think that discussing a mental health issue with your employer would have negative consequences?</label><br>
+<select name= "mental_health_consequence">
+<option value = "Yes"> Yes </option>
+<option value = "No"> No </option>
+<option value="Maybe"> Maybe </option>
+</select>
+</p> <br>
+
+<p>
+<label for = "phys_health_consequence">Do you think that discussing a physical health issue with your employer would have negative consequences?</label><br>
+<select name= "phys_health_consequence">
+<option value = "Yes"> Yes </option>
+<option value = "No"> No </option>
+<option value="Maybe"> Maybe </option>
+</select>
+</p> <br>
+
+<p>
+<label for = "coworkers">Would you be willing to discuss a mental health issue with your coworkers?</label><br>
+<select name= "coworkers">
+<option value = "Yes"> Yes </option>
+<option value = "No"> No </option>
+<option value="Some of them"> Some of them </option>
+</select>
+</p> <br>
+
+<p>
+<label for = "supervisor">Would you be willing to discuss a mental health issue with your direct supervisor(s)?</label><br>
+<select name= "supervisor">
+<option value = "Yes"> Yes </option>
+<option value = "No"> No </option>
+<option value="Some of them"> Some of them </option>
+</select>
+</p> <br>
+
+<p>
+<label for = "mental_health_interview">Would you bring up a mental health issue with a potential employer in an interview?</label><br>
+<select name= "mental_health_interview">
+<option value = "Yes"> Yes </option>
+<option value = "No"> No </option>
+<option value="Maybe"> Maybe </option>
+</select>
+</p> <br>
+
+<p>
+<label for = "phys_health_interview">Would you bring up a physical health issue with a potential employer in an interview?</label><br>
+<select name= "phys_health_interview">
+<option value = "Yes"> Yes </option>
+<option value = "No"> No </option>
+<option value="Maybe"> Maybe </option>
+</select>
+</p> <br>
+
+<p>
+<label for = "mental_vs_physical">Do you feel that your employer takes mental health as seriously as physical health?</label><br>
+<select name= "mental_vs_physical">
+<option value = "Yes"> Yes </option>
+<option value = "No"> No </option>
+<option value="Don't know"> Don't know </option>
+</select>
+</p> <br>
+
+<p>
+<label for = "obs_consequence">Have you heard of or observed negative consequences for coworkers with mental health conditions in your workplace?</label><br>
+<select name= "obs_consequence">
+<option value = "Yes"> Yes </option>
+<option value = "No"> No </option>
+</select>
+</p>
+<br>
+
+<button type="submit" class="btn btn-primary btn-block btn-large" style="height:30px;width:200px">Predict</button>
+<br>
+</form>
+
+<p> <b> {{y}} </b> </p>
+
+ </div>
+
+
+</body>
+</html>
